@@ -6,3 +6,4 @@ How to run it:
 * update settings.ini with your github repository, git branch and paths to the locales
 * build the docker image: docker build -t node-red:i18n .
 * run the docker container: docker run -it -p 2880:2880 node-red:i18n
+* open http://localhost:2880
